@@ -83,7 +83,7 @@ dependencies {
 
     //gson
     def gsonVersion = '2.8.6'
-    implementation "com.google.code.gson:gson:$gsonVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$gsonVersion"
 
     // for http requests
     def retrofit = '2.9.0'

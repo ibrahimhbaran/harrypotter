@@ -1,4 +1,4 @@
-package com.play.harrypotter
+package com.play.harrypotter.ui.activities
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

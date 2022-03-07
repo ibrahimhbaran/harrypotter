@@ -81,9 +81,6 @@ dependencies {
     implementation "com.google.dagger:hilt-android:$hiltVersion"
     kapt "com.google.dagger:hilt-android-compiler:$hiltVersion"
 
-    //gson
-    def gsonVersion = '2.8.6'
-    implementation "com.squareup.retrofit2:converter-gson:$gsonVersion"
 
     // for http requests
     def retrofit = '2.9.0'

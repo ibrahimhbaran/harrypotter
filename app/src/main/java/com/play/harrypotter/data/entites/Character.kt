@@ -1,8 +1,8 @@
-package com.play.harrypotter.data
+package com.play.harrypotter.data.entites
 
 import com.google.gson.annotations.SerializedName
 
-data class Actor (
+data class Character (
 	@SerializedName("name") val name : String,
 	@SerializedName("alternate_names") val alternate_names : List<String>,
 	@SerializedName("species") val species : String,

@@ -1,4 +1,4 @@
-package com.play.harrypotter.data
+package com.play.harrypotter.data.entites
 
 import com.google.gson.annotations.SerializedName
 

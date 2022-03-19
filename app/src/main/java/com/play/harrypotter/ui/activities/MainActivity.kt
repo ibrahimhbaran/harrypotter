@@ -7,9 +7,11 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.play.harrypotter.contract.MainContract
+import com.play.harrypotter.data.entites.Character
 import com.play.harrypotter.ui.theme.HarryPotterTestTheme
 
-class MainActivity : ComponentActivity() {
+class MainActivity : ComponentActivity(),MainContract.View {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -21,6 +23,23 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
+    override fun showProgress() {
+        TODO("Not yet implemented")
+    }
+
+    override fun hideProgress() {
+        TODO("Not yet implemented")
+    }
+
+    override fun showError(message: String) {
+        TODO("Not yet implemented")
+    }
+
+    override fun loadData(data: List<Character>) {
+        TODO("Not yet implemented")
+    }
+
 }
 
 

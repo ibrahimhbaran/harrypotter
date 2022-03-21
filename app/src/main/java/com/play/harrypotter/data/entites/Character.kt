@@ -9,7 +9,7 @@ data class Character (
 	@SerializedName("gender") val gender : String,
 	@SerializedName("house") val house : String,
 	@SerializedName("dateOfBirth") val dateOfBirth : String,
-	@SerializedName("yearOfBirth") val yearOfBirth : Int,
+	@SerializedName("yearOfBirth") val yearOfBirth : String,
 	@SerializedName("wizard") val wizard : Boolean,
 	@SerializedName("ancestry") val ancestry : String,
 	@SerializedName("eyeColour") val eyeColour : String,
